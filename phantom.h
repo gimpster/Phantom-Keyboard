@@ -13,6 +13,7 @@
 
 /* Modifier keys are handled differently and need to be identified */
 const uint8_t is_modifier[NKEY] = {
+//ROW 0            ROW 1            ROW 2            ROW 3            ROW 4            ROW 5
   true,            true,            false,           false,           false,           false,  // COL  0
   true,            false,           false,           false,           false,           false,  // COL  1
   true,            false,           false,           false,           false,           false,  // COL  2
@@ -34,7 +35,7 @@ const uint8_t is_modifier[NKEY] = {
 };
 
 const uint8_t layout[NKEY] = {
-//ROW 0            ROW 1            ROW 2            ROW 3            ROW 4
+//ROW 0            ROW 1            ROW 2            ROW 3            ROW 4               ROW 5
   KEY_LEFT_CTRL,   KEY_LEFT_SHIFT,  KEY_CAPS_LOCK,   KEY_TAB,         KEY_1,              KEY_ESC,        // COL  0
   KEY_LEFT_GUI,    KEY_PIPE,        KEY_A,           KEY_Q,           KEY_2,              KEY_TILDE,      // COL  1
   KEY_LEFT_ALT,    KEY_Z,           KEY_S,           KEY_W,           KEY_3,              KEY_F1,         // COL  2
